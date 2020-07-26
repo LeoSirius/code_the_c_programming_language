@@ -15,9 +15,9 @@ int main()
     px = arr;
 
     // 注意这里加括号才是把指针指向的内容+1，不加括号则是指针本身加1，再取内容
-    printf("%d\n", (*px)++);
-    printf("%d\n", *px++);
+    printf("%d\n", (*px)++);   // 0
+    printf("%d\n", *px++);     // 1
 
-    printf("arr[0] = %d, arr[1] = %d\n", arr[0], arr[1]);
+    printf("arr[0] = %d, arr[1] = %d\n", arr[0], arr[1]);  // 1 1
 
 }

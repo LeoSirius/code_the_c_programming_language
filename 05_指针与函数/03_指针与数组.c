@@ -5,7 +5,7 @@
  * 
  */
 
-// 数组参数也可以写成print_arr(int arr[])
+// 函数的数组参数也可以写成print_arr(int arr[])
 // 但是下面的形式更好一些，明确了传进来的就是一个指针
 void print_arr(int *arr, int len)
 {
